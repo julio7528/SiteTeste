@@ -1,0 +1,63 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+    <head>
+        <title>Linguiçaria - Forno a Bafo</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo|Reenie+Beanie|Roboto:400,500,500i" rel="stylesheet">
+        <meta charset="UTF-8" />          
+      </head>
+        <body>
+        <header>
+            <h1 id="home">Linguiçaria - Especialista em Lanches de Linguiça</h1>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#lanches">Lanches</a></li>
+                <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            </header>        
+            <main>
+                <section>                
+                    <article>  
+                        <form action="mailto:julio@aedu.com" method="POST" enctype="text/plain">
+                            <div>
+                                <label>Nome</label>
+                                <input type="text" name="nome" placeholder="digite seu nome" maxlength="250" required/>
+                        
+                                <label>Enredeço</label>
+                                <input type="text" name="endereco" placeholder="endereco" required/>
+
+                                <label>Telefone</label>
+                                <input type="tel" name="telefone" placeholder="(00) 00000-0000" required/>
+                            
+                                <label>Lanche</label><br>
+                                <label>DUMONT</label>
+                                <input type="radio" name="option" value="dumont" checked/> 
+                                <label id="option" >CUIABANA</label>
+                                <input type="radio" name="option" value="cuiabana"/>
+                                <label id="option">APIMENTADA</label>
+                                <input type="radio" name="option" value="apimentada"/>
+                                <br>
+                                <label>Quantidade</label>
+                                <input type="number" name="amount" required>
+                                <br>
+                                <label>Forma de Pagamento</label><br>
+                                <select name="payment">
+                                    <option value="dinheiro">Dinheiro</option>
+                                    <option value="cartao">Cartão</option>
+                                    <option value="dinhecart">Dinheiro e Cartão</option>
+                                </select>
+                                <br>
+
+                                <input type="submit" name="submit" value="Enviar Pedido" />
+                            </div>
+                        </form>                  
+                    </article>
+                </section>
+            </main>
+        <footer>
+            <h2>Linguiçaria Corporation</h2>
+        </footer>
+        </body>
+</html>

@@ -1,0 +1,57 @@
+.wallpaperBackground{
+    background: url("../img/sabores-pizzas.png") top left repeat-x;
+    background-position-Y: 200px;
+    background-color: darkslategrey;
+}
+h1{
+    background: url("../img/logo-linguicaria.png")  0 0 no-repeat;
+	height: 200px;
+	overflow: hidden;
+	text-indent: -9999px;
+    display: block;
+    padding: 10px;
+    margin: 0;
+}
+.estiloParag{
+    color: deeppink;
+    font-family: 'Segoe UI';
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+header{
+    position: left top;
+    height: 200px;
+	background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 72px 0 72px;
+
+}
+nav{
+    background-repeat: repeat-x;
+    float: center;
+    margin-top: -140px;
+}
+main{    
+    text-align: center;
+    margin-top: 470px;
+}
+
+.colorHEadTd{
+    background: none;
+    background-color: aqua;
+}
+table{
+    border-color: blanchedalmond;
+    border-style: dashed;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+}
+td{
+    color: aquamarine;
+    background: black;
+    border: 1px solid white;
+}
